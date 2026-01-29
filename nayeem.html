@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Ishu 👑</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #2b0a3d, #000);
+  color: #fff;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  color: gold;
+}
+
+h2 {
+  color: #f5c542;
+}
+
+.message {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+  background: rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.crown {
+  font-size: 70px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: gold;
+  color: #2b0a3d;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ffd700;
+}
+
+#surprise {
+  display: none;
+  margin-top: 30px;
+  font-size: 22px;
+  color: #ffdde1;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="crown">👑</div>
+  <h1>Happy 19th Birthday</h1>
+  <h2>Princess Ishu ✨</h2>
+
+  <div class="message">
+    Dear Ishu,<br><br>
+    Today is not just your birthday,  
+    it’s the day a **queen** was born. 👑  
+    <br><br>
+    Your smile brings light,  
+    your heart brings warmth,  
+    and your presence makes life beautiful.  
+    <br><br>
+    At 19, may your dreams grow bigger,  
+    your heart grow stronger,  
+    and your life shine brighter than gold. ✨  
+    <br><br>
+    Always remember —  
+    you are loved, protected, and cherished. 💖
+  </div>
+
+  <button onclick="showSurprise()">Click for Surprise 🎁</button>
+
+  <div id="surprise">
+    🌸 You are not just my sister,<br>
+    you are my **forever princess** 👑💫
+  </div>
+</div>
+
+<script>
+function showSurprise() {
+  document.getElementById("surprise").style.display = "block";
+}
+</script>
+
+</body>
+</html>
